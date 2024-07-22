@@ -1,0 +1,273 @@
+
+
+*{margin: 0;
+padding: 0;
+}
+
+
+.encabezado{height: 100px;
+    color: rgb(247, 246, 246);
+    background-color:rgb(73, 72, 72);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: auto;
+    font-size: xx-large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+align-items: center;
+justify-content: space-between;
+padding: 30px;}
+
+    .lista{
+    display: flex;
+    list-style-type: none
+    ;font-size: xx-large;
+    padding: 3px;
+}
+
+.lista li a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+}
+
+.hijo{
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.hijo-fav{
+    display: flex;
+    flex-direction: column;
+    width: 63%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.main{
+    background-color: teal;
+    width: 100%;
+    height: 125px;
+    border-top-left-radius:  15px;
+    border-top-right-radius: 15px;
+    ;
+}
+img{border-radius: 50%;
+    margin-left: 50px;
+    justify-content: space-around;
+    position: relative;
+    bottom: 100px;
+    border: 3px dotted;color: white;
+}
+
+.descripcion{
+    font-size: xx-large;
+    position: relative;
+    bottom: 100px;
+    left: 60px;
+    ;
+}
+
+.ciudad{
+    font-size: large;
+    position: relative;
+    bottom: 100px;
+    left: 60px;
+    color: grey;
+}
+
+.parrafo{
+    position: relative;
+    justify-content: center;
+    margin-left: 60px;
+    bottom: 90px;
+    margin-right: 40%;
+    color: grey;
+}
+
+.resumen{
+    position: relative;
+    justify-content: center;
+    margin-left: 60px;
+    bottom: 90px;
+    color: grey;
+}
+
+.button1{
+    position: relative;
+    justify-content: center;
+    margin-left: 80px;
+    bottom: 40px;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    text-decoration: none;
+    color:orange;
+    width: 100px;
+}
+
+.cuadrado{
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -20px 36px -28px inset;
+    border-radius: 10px;
+}
+
+.fixed-size{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 255, 255);;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -20px 36px -28px inset;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+.solicitudes{
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   letter-spacing: 5px;
+}
+
+.imagen1{width: 70px
+    ;height: 70px;
+    border-radius: 0;
+    border-color: teal;
+    border-style: solid;
+    border-radius: 10px;
+    margin-top: 125px;
+    margin-left: 90px;
+}
+
+.juana{
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-left: 200px ;
+    position: relative;
+    bottom: 150px;}
+
+    button{
+    font-size: 24px; 
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .check-btn{
+        background-color: white;
+        color: hsl(319, 72%, 60%);
+        position: relative;
+        bottom: 190px;
+        left: 500px;
+        border: 2px solid pink
+    }
+    .cross-btn{background-color: white;
+        color: hsl(319, 72%, 60%);
+        position: relative;
+        bottom: 190px;
+        left: 500px;
+        margin-left: 30px;
+        border: 2px solid pink}
+
+        .imagen2{width: 70px
+            ;height: 70px;
+            border-radius: 0;
+            border-color: teal;
+            border-style: solid;
+            border-radius: 10px;
+            margin-top: -30px;
+            margin-left: 90px;
+        }
+        
+        .isabel{display: flex;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            letter-spacing: 3px;
+            margin-left: 200px ;
+            position: relative;
+            bottom: 150px;
+            align-items: center;
+        }
+        
+li{list-style: none;}
+
+.col-1{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -20px 36px -28px inset;
+    border-radius: 10px;
+}
+
+.tusconexiones{
+    color: black;
+    text-align: center;
+font-size: xx-large;
+letter-spacing: 3px;
+}
+
+.amigos{
+    flex: content;
+    text-align: left;
+    line-height: 50px;
+}
+
+.isabel1{display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-left: 200px ;
+    position: relative;
+    bottom: 180px;
+    align-items: center;
+}
+    
+.pie{background-color: white;
+    margin-top: 15px;
+width: 100%;
+height: 250px;
+bottom: 1050px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px -20px 36px -28px inset;
+border-radius: 10px;
+}
+
+.final{ text-align: left;
+max-width: 250px;
+font-size: x-large;
+margin-left: 10px;
+margin-top: 50px;}
+
+.education{position: relative;
+    left: 30px;
+    font-size: xx-large}
+
+    .cerrar{color: goldenrod;
+        width: 200px;
+        border-radius: 0%;
+        background-color: teal;
+    }
+        button:hover{color: orangered;}
+       
